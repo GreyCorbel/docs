@@ -27,7 +27,7 @@
 
 #let gc-config(displayname, name, example, description) = locate(loc => {
   block(breakable: false)[
-    #let level = query(heading, loc).last().level
+    #let level = query(selector(heading.where(outlined: true)).before(loc), loc).last().level
     #heading(level: level + 1, displayname, outlined: false)
     #label("gc-config-" + displayname.replace(regex("\s+"), "-"))
   
