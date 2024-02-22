@@ -15,7 +15,7 @@
 
   set heading(numbering: "1.")
 
-  align(center, text(25pt, title))
+  align(center, text(25pt, strong(title)))
   ""
 
   pagebreak(weak: true)
