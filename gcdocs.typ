@@ -51,3 +51,14 @@
   ]
 })
 
+#let azure = (
+  func: "Azure Function",
+  app_service: "Azure App Service",
+  rg: "Resource Group",
+  event_grid: "Azure Event Grid",
+  event_hub: "Azure Event Hub",
+  kv: "Azure Key vault",
+  app_ins: "Azure Application Insights",
+  app_reg: "Azure App registration",
+  cosmos_db: "Azure Cosmos DB"
+)
